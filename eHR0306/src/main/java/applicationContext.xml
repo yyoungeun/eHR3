@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<!-- MemberDaoImple -->
+	<bean id="memberDaoImpl" class="com.ehr.MemberDaoImpl" />
+	<!-- Advice -->
+	<bean id="logAdvice" class="com.ehr.LogAdvice" />
+	
+	<!-- Aop Config -->
+	<!-- execution(*  com.ehr.service..*Imple.tx*(..)
+				리턴타입	패키지 경로			클래스  메소드 파라메터
+		*:리턴타입
+		com.ehr.service..: 패키지 경로
+		*Impl:클래스
+		.tx*:메소드
+		(..): 파라메터 / 모든 매개변수
+	
+	 -->
+	
+	<!-- Aop Config -->
+	<aop:config>
+		<aop:aspect ref="logAdvice" order="1"> <!-- order: 순위 -->
+			<aop:before method="logging"
+				pointcut="execution(* com.ehr..*do_*(..))" 
+			/>
+			<!-- com.ehr.MemberDaoImpl로 시작하는 모든 메소드 선택 -->
+		</aop:aspect>
+	</aop:config>
+
+</beans>

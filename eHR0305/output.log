@@ -1,0 +1,593 @@
+2019-08-30 10:25:05,060 DEBUG [main] junit4.SpringJUnit4ClassRunner (SpringJUnit4ClassRunner.java:140)     - SpringJUnit4ClassRunner constructor called with [class com.ehr.UserServiceTest]
+2019-08-30 10:25:05,067 DEBUG [main] context.BootstrapUtils (BootstrapUtils.java:95)     - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2019-08-30 10:25:05,074 DEBUG [main] context.BootstrapUtils (BootstrapUtils.java:78)     - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2019-08-30 10:25:05,078 DEBUG [main] context.BootstrapUtils (BootstrapUtils.java:131)     - Instantiating TestContextBootstrapper for test class [com.ehr.UserServiceTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2019-08-30 10:25:05,092 DEBUG [main] support.AbstractDelegatingSmartContextLoader (AbstractDelegatingSmartContextLoader.java:96)     - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@2133c8f8 declaringClass = 'com.ehr.UserServiceTest', classes = '{}', locations = '{/test-applicationContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2019-08-30 10:25:05,100 DEBUG [main] support.ActiveProfilesUtils (ActiveProfilesUtils.java:78)     - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ehr.UserServiceTest]
+2019-08-30 10:25:05,101 DEBUG [main] support.DefaultTestContextBootstrapper (AbstractTestContextBootstrapper.java:132)     - @TestExecutionListeners is not present for class [com.ehr.UserServiceTest]: using defaults.
+2019-08-30 10:25:05,102 INFO  [main] support.DefaultTestContextBootstrapper (AbstractTestContextBootstrapper.java:260)     - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-30 10:25:05,108 INFO  [main] support.DefaultTestContextBootstrapper (AbstractTestContextBootstrapper.java:209)     - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2019-08-30 10:25:05,109 INFO  [main] support.DefaultTestContextBootstrapper (AbstractTestContextBootstrapper.java:187)     - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50f8360d, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2cb4c3ab, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13c78c0b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@12843fce, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3dd3bcd]
+2019-08-30 10:25:05,110 DEBUG [main] annotation.ProfileValueUtils (ProfileValueUtils.java:68)     - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ehr.UserServiceTest]
+2019-08-30 10:25:05,110 DEBUG [main] annotation.ProfileValueUtils (ProfileValueUtils.java:80)     - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ehr.UserServiceTest]
+2019-08-30 10:25:05,118 DEBUG [main] annotation.ProfileValueUtils (ProfileValueUtils.java:68)     - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ehr.UserServiceTest]
+2019-08-30 10:25:05,118 DEBUG [main] annotation.ProfileValueUtils (ProfileValueUtils.java:80)     - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ehr.UserServiceTest]
+2019-08-30 10:25:05,119 DEBUG [main] annotation.ProfileValueUtils (ProfileValueUtils.java:68)     - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ehr.UserServiceTest]
+2019-08-30 10:25:05,119 DEBUG [main] annotation.ProfileValueUtils (ProfileValueUtils.java:80)     - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ehr.UserServiceTest]
+2019-08-30 10:25:05,124 DEBUG [main] annotation.ProfileValueUtils (ProfileValueUtils.java:68)     - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ehr.UserServiceTest]
+2019-08-30 10:25:05,124 DEBUG [main] annotation.ProfileValueUtils (ProfileValueUtils.java:80)     - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ehr.UserServiceTest]
+2019-08-30 10:25:05,125 DEBUG [main] support.AbstractDirtiesContextTestExecutionListener (AbstractDirtiesContextTestExecutionListener.java:141)     - Before test class: context [DefaultTestContext@4439f31e testClass = UserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5dfcfece testClass = UserServiceTest, locations = '{classpath:/test-applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-08-30 10:25:05,126 DEBUG [main] annotation.ProfileValueUtils (ProfileValueUtils.java:68)     - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ehr.UserServiceTest]
+2019-08-30 10:25:05,127 DEBUG [main] annotation.ProfileValueUtils (ProfileValueUtils.java:80)     - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ehr.UserServiceTest]
+2019-08-30 10:25:05,127 DEBUG [main] support.DependencyInjectionTestExecutionListener (DependencyInjectionTestExecutionListener.java:81)     - Performing dependency injection for test context [[DefaultTestContext@4439f31e testClass = UserServiceTest, testInstance = com.ehr.UserServiceTest@5034c75a, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5dfcfece testClass = UserServiceTest, locations = '{classpath:/test-applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+2019-08-30 10:25:05,128 DEBUG [main] support.AbstractDelegatingSmartContextLoader (AbstractDelegatingSmartContextLoader.java:106)     - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@5dfcfece testClass = UserServiceTest, locations = '{classpath:/test-applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2019-08-30 10:25:05,128 DEBUG [main] support.AbstractGenericContextLoader (AbstractGenericContextLoader.java:109)     - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@5dfcfece testClass = UserServiceTest, locations = '{classpath:/test-applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2019-08-30 10:25:05,137 DEBUG [main] support.PathMatchingResourcePatternResolver (PathMatchingResourcePatternResolver.java:192)     - Found Equinox FileLocator for OSGi bundle URL resolution
+2019-08-30 10:25:05,155 DEBUG [main] env.StandardEnvironment (MutablePropertySources.java:109)     - Adding [systemProperties] PropertySource with lowest search precedence
+2019-08-30 10:25:05,156 DEBUG [main] env.StandardEnvironment (MutablePropertySources.java:109)     - Adding [systemEnvironment] PropertySource with lowest search precedence
+2019-08-30 10:25:05,156 DEBUG [main] env.StandardEnvironment (AbstractEnvironment.java:124)     - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2019-08-30 10:25:05,161 INFO  [main] xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317)     - Loading XML bean definitions from class path resource [test-applicationContext.xml]
+2019-08-30 10:25:05,182 DEBUG [main] xml.DefaultDocumentLoader (DefaultDocumentLoader.java:73)     - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2019-08-30 10:25:05,201 DEBUG [main] xml.PluggableSchemaResolver (PluggableSchemaResolver.java:141)     - Loading schema mappings from [META-INF/spring.schemas]
+2019-08-30 10:25:05,203 DEBUG [main] xml.PluggableSchemaResolver (PluggableSchemaResolver.java:147)     - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-4.3.xsd=org/springframework/transaction/config/spring-tx-4.3.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.3.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.3.xsd, http://www.springframework.org/schema/tx/spring-tx-4.2.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.3.xsd=org/springframework/beans/factory/xml/spring-util-4.3.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.3.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.3.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.3.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/context/spring-context-4.3.xsd=org/springframework/context/config/spring-context-4.3.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.3.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-4.3.xsd=org/springframework/aop/config/spring-aop-4.3.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.3.xsd=org/springframework/jdbc/config/spring-jdbc-4.3.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.3.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-4.3.xsd=org/springframework/scripting/config/spring-lang-4.3.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.3.xsd=org/springframework/beans/factory/xml/spring-tool-4.3.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-4.3.xsd=org/springframework/ejb/config/spring-jee-4.3.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/cache/spring-cache-4.3.xsd=org/springframework/cache/config/spring-cache-4.3.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.3.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.3.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.3.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-4.3.xsd=org/springframework/beans/factory/xml/spring-beans-4.3.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/task/spring-task-4.3.xsd=org/springframework/scheduling/config/spring-task-4.3.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.3.xsd}
+2019-08-30 10:25:05,205 DEBUG [main] xml.PluggableSchemaResolver (PluggableSchemaResolver.java:119)     - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.3.xsd
+2019-08-30 10:25:05,234 DEBUG [main] xml.DefaultBeanDefinitionDocumentReader (DefaultBeanDefinitionDocumentReader.java:92)     - Loading bean definitions
+2019-08-30 10:25:05,245 DEBUG [main] xml.BeanDefinitionParserDelegate (BeanDefinitionParserDelegate.java:481)     - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator#0]
+2019-08-30 10:25:05,246 DEBUG [main] xml.XmlBeanDefinitionReader (AbstractBeanDefinitionReader.java:224)     - Loaded 13 bean definitions from location pattern [classpath:/test-applicationContext.xml]
+2019-08-30 10:25:05,254 INFO  [main] support.GenericApplicationContext (AbstractApplicationContext.java:583)     - Refreshing org.springframework.context.support.GenericApplicationContext@3532ec19: startup date [Fri Aug 30 10:25:05 KST 2019]; root of context hierarchy
+2019-08-30 10:25:05,255 DEBUG [main] support.GenericApplicationContext (AbstractApplicationContext.java:617)     - Bean factory for org.springframework.context.support.GenericApplicationContext@3532ec19: org.springframework.beans.factory.support.DefaultListableBeanFactory@29b5cd00: defining beans [mailSender,passwordAuth,authenticator,emailSession,transactionManager,testUserService,org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator#0,transactionAdvisor,transactionPointCut,transactionAdvice,userService,dataSource,userDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory]; root of factory hierarchy
+2019-08-30 10:25:05,274 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-08-30 10:25:05,274 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-08-30 10:25:05,283 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2019-08-30 10:25:05,285 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-08-30 10:25:05,302 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-08-30 10:25:05,302 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-08-30 10:25:05,302 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2019-08-30 10:25:05,313 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-08-30 10:25:05,313 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2019-08-30 10:25:05,313 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2019-08-30 10:25:05,314 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2019-08-30 10:25:05,318 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2019-08-30 10:25:05,318 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-08-30 10:25:05,318 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-08-30 10:25:05,321 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2019-08-30 10:25:05,324 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-08-30 10:25:05,325 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator#0'
+2019-08-30 10:25:05,325 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator#0'
+2019-08-30 10:25:05,331 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator#0' to allow for resolving potential circular references
+2019-08-30 10:25:05,338 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator#0'
+2019-08-30 10:25:05,339 DEBUG [main] support.GenericApplicationContext (AbstractApplicationContext.java:734)     - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@45dd4eda]
+2019-08-30 10:25:05,340 DEBUG [main] support.GenericApplicationContext (AbstractApplicationContext.java:758)     - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@d83da2e]
+2019-08-30 10:25:05,341 DEBUG [main] support.DefaultListableBeanFactory (DefaultListableBeanFactory.java:730)     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29b5cd00: defining beans [mailSender,passwordAuth,authenticator,emailSession,transactionManager,testUserService,org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator#0,transactionAdvisor,transactionPointCut,transactionAdvice,userService,dataSource,userDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory]; root of factory hierarchy
+2019-08-30 10:25:05,341 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'mailSender'
+2019-08-30 10:25:05,341 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'mailSender'
+2019-08-30 10:25:05,342 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'mailSender' to allow for resolving potential circular references
+2019-08-30 10:25:05,343 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'transactionAdvisor'
+2019-08-30 10:25:05,344 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'transactionAdvisor'
+2019-08-30 10:25:05,344 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'transactionAdvisor' to allow for resolving potential circular references
+2019-08-30 10:25:05,348 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'transactionAdvice'
+2019-08-30 10:25:05,348 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'transactionAdvice'
+2019-08-30 10:25:05,349 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'transactionAdvice' to allow for resolving potential circular references
+2019-08-30 10:25:05,350 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'transactionManager'
+2019-08-30 10:25:05,350 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'transactionManager'
+2019-08-30 10:25:05,354 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2019-08-30 10:25:05,356 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'dataSource'
+2019-08-30 10:25:05,357 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'dataSource'
+2019-08-30 10:25:05,358 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2019-08-30 10:25:05,481 DEBUG [main] autoproxy.BeanFactoryAdvisorRetrievalHelper (BeanFactoryAdvisorRetrievalHelper.java:87)     - Skipping currently created advisor 'transactionAdvisor'
+2019-08-30 10:25:05,482 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'dataSource'
+2019-08-30 10:25:05,482 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:1670)     - Invoking afterPropertiesSet() on bean with name 'transactionManager'
+2019-08-30 10:25:05,482 DEBUG [main] autoproxy.BeanFactoryAdvisorRetrievalHelper (BeanFactoryAdvisorRetrievalHelper.java:87)     - Skipping currently created advisor 'transactionAdvisor'
+2019-08-30 10:25:05,482 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'transactionManager'
+2019-08-30 10:25:05,482 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'transactionAdvice'
+2019-08-30 10:25:05,483 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'transactionPointCut'
+2019-08-30 10:25:05,483 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'transactionPointCut'
+2019-08-30 10:25:05,484 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'transactionPointCut' to allow for resolving potential circular references
+2019-08-30 10:25:05,489 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'transactionPointCut'
+2019-08-30 10:25:05,489 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'transactionAdvisor'
+2019-08-30 10:25:05,489 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:33)     - 1. PointCut mappedName:*Service
+2019-08-30 10:25:05,489 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:34)     - 2. PointCut clazz:DummyMailSender
+2019-08-30 10:25:05,490 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:35)     - 3. PointCut PatternMatchUtils:false
+2019-08-30 10:25:05,490 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'mailSender'
+2019-08-30 10:25:05,490 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'passwordAuth'
+2019-08-30 10:25:05,490 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'passwordAuth'
+2019-08-30 10:25:05,494 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'passwordAuth' to allow for resolving potential circular references
+2019-08-30 10:25:05,495 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionAdvisor'
+2019-08-30 10:25:05,495 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:33)     - 1. PointCut mappedName:*Service
+2019-08-30 10:25:05,495 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:34)     - 2. PointCut clazz:PasswordAuthentication
+2019-08-30 10:25:05,495 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:35)     - 3. PointCut PatternMatchUtils:false
+2019-08-30 10:25:05,495 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'passwordAuth'
+2019-08-30 10:25:05,495 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'authenticator'
+2019-08-30 10:25:05,496 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'authenticator'
+2019-08-30 10:25:05,531 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'authenticator' to allow for resolving potential circular references
+2019-08-30 10:25:05,533 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionAdvisor'
+2019-08-30 10:25:05,533 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:33)     - 1. PointCut mappedName:*Service
+2019-08-30 10:25:05,533 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:34)     - 2. PointCut clazz:Authenticator$$EnhancerBySpringCGLIB$$26b2e9de
+2019-08-30 10:25:05,533 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:35)     - 3. PointCut PatternMatchUtils:false
+2019-08-30 10:25:05,533 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'authenticator'
+2019-08-30 10:25:05,534 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'emailSession'
+2019-08-30 10:25:05,534 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'emailSession'
+2019-08-30 10:25:05,537 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'authenticator'
+2019-08-30 10:25:05,544 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'emailSession' to allow for resolving potential circular references
+2019-08-30 10:25:05,545 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionAdvisor'
+2019-08-30 10:25:05,545 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:33)     - 1. PointCut mappedName:*Service
+2019-08-30 10:25:05,545 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:34)     - 2. PointCut clazz:Session
+2019-08-30 10:25:05,546 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:35)     - 3. PointCut PatternMatchUtils:false
+2019-08-30 10:25:05,546 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'emailSession'
+2019-08-30 10:25:05,546 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionManager'
+2019-08-30 10:25:05,546 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'testUserService'
+2019-08-30 10:25:05,546 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'testUserService'
+2019-08-30 10:25:05,547 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'testUserService' to allow for resolving potential circular references
+2019-08-30 10:25:05,549 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'userDao'
+2019-08-30 10:25:05,549 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'userDao'
+2019-08-30 10:25:05,552 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'userDao' to allow for resolving potential circular references
+2019-08-30 10:25:05,553 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'dataSource'
+2019-08-30 10:25:05,556 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionAdvisor'
+2019-08-30 10:25:05,556 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:33)     - 1. PointCut mappedName:*Service
+2019-08-30 10:25:05,556 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:34)     - 2. PointCut clazz:UserDaoJdbc
+2019-08-30 10:25:05,556 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:35)     - 3. PointCut PatternMatchUtils:false
+2019-08-30 10:25:05,556 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'userDao'
+2019-08-30 10:25:05,557 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'mailSender'
+2019-08-30 10:25:05,557 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionAdvisor'
+2019-08-30 10:25:05,557 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:33)     - 1. PointCut mappedName:*Service
+2019-08-30 10:25:05,557 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:34)     - 2. PointCut clazz:TestUserService
+2019-08-30 10:25:05,557 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:35)     - 3. PointCut PatternMatchUtils:true
+2019-08-30 10:25:05,560 DEBUG [main] autoproxy.DefaultAdvisorAutoProxyCreator (AbstractAutoProxyCreator.java:527)     - Creating implicit proxy for bean 'testUserService' with 0 common interceptors and 1 specific interceptors
+2019-08-30 10:25:05,561 DEBUG [main] framework.JdkDynamicAopProxy (JdkDynamicAopProxy.java:118)     - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.ehr.UserServiceTest$TestUserService@2df3b89c]
+2019-08-30 10:25:05,563 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'testUserService'
+2019-08-30 10:25:05,563 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator#0'
+2019-08-30 10:25:05,563 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionAdvisor'
+2019-08-30 10:25:05,563 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionPointCut'
+2019-08-30 10:25:05,563 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionAdvice'
+2019-08-30 10:25:05,564 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'userService'
+2019-08-30 10:25:05,564 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'userService'
+2019-08-30 10:25:05,564 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'userService' to allow for resolving potential circular references
+2019-08-30 10:25:05,564 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'userDao'
+2019-08-30 10:25:05,565 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'mailSender'
+2019-08-30 10:25:05,565 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionAdvisor'
+2019-08-30 10:25:05,565 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:33)     - 1. PointCut mappedName:*Service
+2019-08-30 10:25:05,565 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:34)     - 2. PointCut clazz:UserServiceImpl
+2019-08-30 10:25:05,565 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:35)     - 3. PointCut PatternMatchUtils:false
+2019-08-30 10:25:05,565 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'userService'
+2019-08-30 10:25:05,565 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'dataSource'
+2019-08-30 10:25:05,565 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'userDao'
+2019-08-30 10:25:05,566 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2019-08-30 10:25:05,566 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2019-08-30 10:25:05,566 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2019-08-30 10:25:05,566 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2019-08-30 10:25:05,566 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-08-30 10:25:05,566 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-08-30 10:25:05,567 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2019-08-30 10:25:05,568 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionAdvisor'
+2019-08-30 10:25:05,568 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:33)     - 1. PointCut mappedName:*Service
+2019-08-30 10:25:05,569 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:34)     - 2. PointCut clazz:EventListenerMethodProcessor
+2019-08-30 10:25:05,569 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:35)     - 3. PointCut PatternMatchUtils:false
+2019-08-30 10:25:05,569 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2019-08-30 10:25:05,569 DEBUG [main] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:221)     - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-08-30 10:25:05,569 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:449)     - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-08-30 10:25:05,569 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:539)     - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2019-08-30 10:25:05,571 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionAdvisor'
+2019-08-30 10:25:05,571 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:33)     - 1. PointCut mappedName:*Service
+2019-08-30 10:25:05,571 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:34)     - 2. PointCut clazz:DefaultEventListenerFactory
+2019-08-30 10:25:05,571 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:35)     - 3. PointCut PatternMatchUtils:false
+2019-08-30 10:25:05,571 DEBUG [main] support.DefaultListableBeanFactory (AbstractAutowireCapableBeanFactory.java:485)     - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-08-30 10:25:05,571 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2019-08-30 10:25:05,581 DEBUG [main] support.GenericApplicationContext (AbstractApplicationContext.java:785)     - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@8c3b9d]
+2019-08-30 10:25:05,581 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'lifecycleProcessor'
+2019-08-30 10:25:05,582 DEBUG [main] env.PropertySourcesPropertyResolver (PropertySourcesPropertyResolver.java:91)     - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+2019-08-30 10:25:05,583 DEBUG [main] cache.DefaultCacheAwareContextLoaderDelegate (DefaultCacheAwareContextLoaderDelegate.java:118)     - Storing ApplicationContext in cache under key [[MergedContextConfiguration@5dfcfece testClass = UserServiceTest, locations = '{classpath:/test-applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2019-08-30 10:25:05,584 DEBUG [main] context.cache     (DefaultContextCache.java:290)     - Spring test ApplicationContext cache statistics: [DefaultContextCache@5c671d7f size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2019-08-30 10:25:05,586 DEBUG [main] annotation.InjectionMetadata (InjectionMetadata.java:86)     - Processing injected element of bean 'com.ehr.UserServiceTest': AutowiredFieldElement for org.springframework.context.ApplicationContext com.ehr.UserServiceTest.context
+2019-08-30 10:25:05,587 DEBUG [main] annotation.AutowiredAnnotationBeanPostProcessor (AutowiredAnnotationBeanPostProcessor.java:535)     - Autowiring by type from bean name 'com.ehr.UserServiceTest' to bean named 'org.springframework.context.support.GenericApplicationContext@3532ec19'
+2019-08-30 10:25:05,587 DEBUG [main] annotation.InjectionMetadata (InjectionMetadata.java:86)     - Processing injected element of bean 'com.ehr.UserServiceTest': AutowiredFieldElement for org.springframework.mail.MailSender com.ehr.UserServiceTest.mailSender
+2019-08-30 10:25:05,588 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'mailSender'
+2019-08-30 10:25:05,588 DEBUG [main] annotation.AutowiredAnnotationBeanPostProcessor (AutowiredAnnotationBeanPostProcessor.java:535)     - Autowiring by type from bean name 'com.ehr.UserServiceTest' to bean named 'mailSender'
+2019-08-30 10:25:05,588 DEBUG [main] annotation.InjectionMetadata (InjectionMetadata.java:86)     - Processing injected element of bean 'com.ehr.UserServiceTest': AutowiredFieldElement for com.ehr.service.UserService com.ehr.UserServiceTest.userService
+2019-08-30 10:25:05,589 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'testUserService'
+2019-08-30 10:25:05,589 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'userService'
+2019-08-30 10:25:05,589 DEBUG [main] annotation.AutowiredAnnotationBeanPostProcessor (AutowiredAnnotationBeanPostProcessor.java:535)     - Autowiring by type from bean name 'com.ehr.UserServiceTest' to bean named 'userService'
+2019-08-30 10:25:05,590 DEBUG [main] annotation.InjectionMetadata (InjectionMetadata.java:86)     - Processing injected element of bean 'com.ehr.UserServiceTest': AutowiredFieldElement for com.ehr.service.UserService com.ehr.UserServiceTest.testUserService
+2019-08-30 10:25:05,590 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'testUserService'
+2019-08-30 10:25:05,590 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'userService'
+2019-08-30 10:25:05,590 DEBUG [main] annotation.AutowiredAnnotationBeanPostProcessor (AutowiredAnnotationBeanPostProcessor.java:535)     - Autowiring by type from bean name 'com.ehr.UserServiceTest' to bean named 'testUserService'
+2019-08-30 10:25:05,590 DEBUG [main] annotation.InjectionMetadata (InjectionMetadata.java:86)     - Processing injected element of bean 'com.ehr.UserServiceTest': AutowiredFieldElement for com.ehr.UserDao com.ehr.UserServiceTest.userDao
+2019-08-30 10:25:05,590 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'userDao'
+2019-08-30 10:25:05,590 DEBUG [main] annotation.AutowiredAnnotationBeanPostProcessor (AutowiredAnnotationBeanPostProcessor.java:535)     - Autowiring by type from bean name 'com.ehr.UserServiceTest' to bean named 'userDao'
+2019-08-30 10:25:05,590 DEBUG [main] annotation.InjectionMetadata (InjectionMetadata.java:86)     - Processing injected element of bean 'com.ehr.UserServiceTest': AutowiredFieldElement for javax.sql.DataSource com.ehr.UserServiceTest.dataSource
+2019-08-30 10:25:05,591 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'dataSource'
+2019-08-30 10:25:05,591 DEBUG [main] annotation.AutowiredAnnotationBeanPostProcessor (AutowiredAnnotationBeanPostProcessor.java:535)     - Autowiring by type from bean name 'com.ehr.UserServiceTest' to bean named 'dataSource'
+2019-08-30 10:25:05,591 DEBUG [main] annotation.InjectionMetadata (InjectionMetadata.java:86)     - Processing injected element of bean 'com.ehr.UserServiceTest': AutowiredFieldElement for org.springframework.transaction.PlatformTransactionManager com.ehr.UserServiceTest.transactionManager
+2019-08-30 10:25:05,591 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionManager'
+2019-08-30 10:25:05,591 DEBUG [main] annotation.AutowiredAnnotationBeanPostProcessor (AutowiredAnnotationBeanPostProcessor.java:535)     - Autowiring by type from bean name 'com.ehr.UserServiceTest' to bean named 'transactionManager'
+2019-08-30 10:25:05,591 DEBUG [main] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'transactionAdvisor'
+2019-08-30 10:25:05,591 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:33)     - 1. PointCut mappedName:*Service
+2019-08-30 10:25:05,591 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:34)     - 2. PointCut clazz:UserServiceTest
+2019-08-30 10:25:05,592 DEBUG [main] service.NameMatchClassPointCut (NameMatchClassPointCut.java:35)     - 3. PointCut PatternMatchUtils:false
+2019-08-30 10:25:05,594 DEBUG [main] support.AbstractDirtiesContextTestExecutionListener (AbstractDirtiesContextTestExecutionListener.java:106)     - Before test method: context [DefaultTestContext@4439f31e testClass = UserServiceTest, testInstance = com.ehr.UserServiceTest@5034c75a, testMethod = upgradeAllOrNothing@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5dfcfece testClass = UserServiceTest, locations = '{classpath:/test-applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-08-30 10:25:05,596 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:522)     - Executing SQL update [ DELETE FROM users]
+2019-08-30 10:25:05,598 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:110)     - Fetching JDBC Connection from DataSource
+2019-08-30 10:25:05,598 DEBUG [main] datasource.SimpleDriverDataSource (SimpleDriverDataSource.java:138)     - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@211.238.142.124:1521:orcl]
+2019-08-30 10:25:06,023 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:529)     - SQL update affected 5 rows
+2019-08-30 10:25:06,023 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:327)     - Returning JDBC Connection to DataSource
+2019-08-30 10:25:06,023 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:307)     - ========================
+2019-08-30 10:25:06,023 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:308)     - 02.sql=
+  INSERT INTO users (		 
+      u_id,                   
+      name,                   
+      passwd,                 
+      h_level,                
+      login,                  
+      recommend,              
+      email,                  
+      reg_dt                  
+  ) VALUES (                  
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      SYSDATE                 
+  )                           
+
+2019-08-30 10:25:06,023 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:309)     - ========================
+2019-08-30 10:25:06,023 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:321)     - ========================
+2019-08-30 10:25:06,023 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:322)     - 02.param=
+User [u_id=j01_124, name=이상무01, passwd=1234, hLevel=BASIC, login=49, recommend=0, email=jamesol@paran.com, regDt=2019/08/23, toString()=DTO [totalCnt=0, num=0]]
+2019-08-30 10:25:06,023 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:323)     - ========================
+2019-08-30 10:25:06,023 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:869)     - Executing prepared SQL update
+2019-08-30 10:25:06,023 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:616)     - Executing prepared SQL statement [  INSERT INTO users (		 
+      u_id,                   
+      name,                   
+      passwd,                 
+      h_level,                
+      login,                  
+      recommend,              
+      email,                  
+      reg_dt                  
+  ) VALUES (                  
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      SYSDATE                 
+  )                           
+]
+2019-08-30 10:25:06,023 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:110)     - Fetching JDBC Connection from DataSource
+2019-08-30 10:25:06,023 DEBUG [main] datasource.SimpleDriverDataSource (SimpleDriverDataSource.java:138)     - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@211.238.142.124:1521:orcl]
+2019-08-30 10:25:06,102 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:879)     - SQL update affected 1 rows
+2019-08-30 10:25:06,102 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:327)     - Returning JDBC Connection to DataSource
+2019-08-30 10:25:06,102 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:307)     - ========================
+2019-08-30 10:25:06,102 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:308)     - 02.sql=
+  INSERT INTO users (		 
+      u_id,                   
+      name,                   
+      passwd,                 
+      h_level,                
+      login,                  
+      recommend,              
+      email,                  
+      reg_dt                  
+  ) VALUES (                  
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      SYSDATE                 
+  )                           
+
+2019-08-30 10:25:06,102 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:309)     - ========================
+2019-08-30 10:25:06,102 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:321)     - ========================
+2019-08-30 10:25:06,102 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:322)     - 02.param=
+User [u_id=j02_124, name=이상무02, passwd=1234, hLevel=BASIC, login=50, recommend=0, email=jamesol@paran.com, regDt=2019/08/23, toString()=DTO [totalCnt=0, num=0]]
+2019-08-30 10:25:06,102 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:323)     - ========================
+2019-08-30 10:25:06,102 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:869)     - Executing prepared SQL update
+2019-08-30 10:25:06,102 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:616)     - Executing prepared SQL statement [  INSERT INTO users (		 
+      u_id,                   
+      name,                   
+      passwd,                 
+      h_level,                
+      login,                  
+      recommend,              
+      email,                  
+      reg_dt                  
+  ) VALUES (                  
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      SYSDATE                 
+  )                           
+]
+2019-08-30 10:25:06,102 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:110)     - Fetching JDBC Connection from DataSource
+2019-08-30 10:25:06,102 DEBUG [main] datasource.SimpleDriverDataSource (SimpleDriverDataSource.java:138)     - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@211.238.142.124:1521:orcl]
+2019-08-30 10:25:06,133 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:879)     - SQL update affected 1 rows
+2019-08-30 10:25:06,133 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:327)     - Returning JDBC Connection to DataSource
+2019-08-30 10:25:06,133 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:307)     - ========================
+2019-08-30 10:25:06,133 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:308)     - 02.sql=
+  INSERT INTO users (		 
+      u_id,                   
+      name,                   
+      passwd,                 
+      h_level,                
+      login,                  
+      recommend,              
+      email,                  
+      reg_dt                  
+  ) VALUES (                  
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      SYSDATE                 
+  )                           
+
+2019-08-30 10:25:06,133 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:309)     - ========================
+2019-08-30 10:25:06,133 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:321)     - ========================
+2019-08-30 10:25:06,133 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:322)     - 02.param=
+User [u_id=j03_124, name=이상무03, passwd=1234, hLevel=SILVER, login=50, recommend=29, email=jamesol@paran.com, regDt=2019/08/23, toString()=DTO [totalCnt=0, num=0]]
+2019-08-30 10:25:06,133 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:323)     - ========================
+2019-08-30 10:25:06,133 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:869)     - Executing prepared SQL update
+2019-08-30 10:25:06,133 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:616)     - Executing prepared SQL statement [  INSERT INTO users (		 
+      u_id,                   
+      name,                   
+      passwd,                 
+      h_level,                
+      login,                  
+      recommend,              
+      email,                  
+      reg_dt                  
+  ) VALUES (                  
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      SYSDATE                 
+  )                           
+]
+2019-08-30 10:25:06,133 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:110)     - Fetching JDBC Connection from DataSource
+2019-08-30 10:25:06,133 DEBUG [main] datasource.SimpleDriverDataSource (SimpleDriverDataSource.java:138)     - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@211.238.142.124:1521:orcl]
+2019-08-30 10:25:06,164 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:879)     - SQL update affected 1 rows
+2019-08-30 10:25:06,164 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:327)     - Returning JDBC Connection to DataSource
+2019-08-30 10:25:06,164 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:307)     - ========================
+2019-08-30 10:25:06,164 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:308)     - 02.sql=
+  INSERT INTO users (		 
+      u_id,                   
+      name,                   
+      passwd,                 
+      h_level,                
+      login,                  
+      recommend,              
+      email,                  
+      reg_dt                  
+  ) VALUES (                  
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      SYSDATE                 
+  )                           
+
+2019-08-30 10:25:06,164 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:309)     - ========================
+2019-08-30 10:25:06,164 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:321)     - ========================
+2019-08-30 10:25:06,164 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:322)     - 02.param=
+User [u_id=j04_124, name=이상무04, passwd=1234, hLevel=SILVER, login=50, recommend=30, email=jamesol@paran.com, regDt=2019/08/23, toString()=DTO [totalCnt=0, num=0]]
+2019-08-30 10:25:06,164 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:323)     - ========================
+2019-08-30 10:25:06,164 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:869)     - Executing prepared SQL update
+2019-08-30 10:25:06,164 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:616)     - Executing prepared SQL statement [  INSERT INTO users (		 
+      u_id,                   
+      name,                   
+      passwd,                 
+      h_level,                
+      login,                  
+      recommend,              
+      email,                  
+      reg_dt                  
+  ) VALUES (                  
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      SYSDATE                 
+  )                           
+]
+2019-08-30 10:25:06,164 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:110)     - Fetching JDBC Connection from DataSource
+2019-08-30 10:25:06,164 DEBUG [main] datasource.SimpleDriverDataSource (SimpleDriverDataSource.java:138)     - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@211.238.142.124:1521:orcl]
+2019-08-30 10:25:06,195 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:879)     - SQL update affected 1 rows
+2019-08-30 10:25:06,195 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:327)     - Returning JDBC Connection to DataSource
+2019-08-30 10:25:06,195 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:307)     - ========================
+2019-08-30 10:25:06,195 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:308)     - 02.sql=
+  INSERT INTO users (		 
+      u_id,                   
+      name,                   
+      passwd,                 
+      h_level,                
+      login,                  
+      recommend,              
+      email,                  
+      reg_dt                  
+  ) VALUES (                  
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      SYSDATE                 
+  )                           
+
+2019-08-30 10:25:06,195 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:309)     - ========================
+2019-08-30 10:25:06,195 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:321)     - ========================
+2019-08-30 10:25:06,195 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:322)     - 02.param=
+User [u_id=j05_124, name=이상무05, passwd=1234, hLevel=GOLD, login=99, recommend=99, email=jamesol@paran.com, regDt=2019/08/23, toString()=DTO [totalCnt=0, num=0]]
+2019-08-30 10:25:06,195 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:323)     - ========================
+2019-08-30 10:25:06,195 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:869)     - Executing prepared SQL update
+2019-08-30 10:25:06,195 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:616)     - Executing prepared SQL statement [  INSERT INTO users (		 
+      u_id,                   
+      name,                   
+      passwd,                 
+      h_level,                
+      login,                  
+      recommend,              
+      email,                  
+      reg_dt                  
+  ) VALUES (                  
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      ?,                      
+      SYSDATE                 
+  )                           
+]
+2019-08-30 10:25:06,195 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:110)     - Fetching JDBC Connection from DataSource
+2019-08-30 10:25:06,195 DEBUG [main] datasource.SimpleDriverDataSource (SimpleDriverDataSource.java:138)     - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@211.238.142.124:1521:orcl]
+2019-08-30 10:25:06,226 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:879)     - SQL update affected 1 rows
+2019-08-30 10:25:06,226 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:327)     - Returning JDBC Connection to DataSource
+2019-08-30 10:25:06,226 DEBUG [main] datasource.DataSourceTransactionManager (AbstractPlatformTransactionManager.java:367)     - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2019-08-30 10:25:06,226 DEBUG [main] datasource.SimpleDriverDataSource (SimpleDriverDataSource.java:138)     - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@211.238.142.124:1521:orcl]
+2019-08-30 10:25:06,258 DEBUG [main] datasource.DataSourceTransactionManager (DataSourceTransactionManager.java:248)     - Acquired Connection [oracle.jdbc.driver.T4CConnection@47caedad] for JDBC transaction
+2019-08-30 10:25:06,258 DEBUG [main] datasource.DataSourceTransactionManager (DataSourceTransactionManager.java:265)     - Switching JDBC Connection [oracle.jdbc.driver.T4CConnection@47caedad] to manual commit
+2019-08-30 10:25:06,258 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:223)     - ========================
+2019-08-30 10:25:06,258 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:224)     - 02.sql=
+  SELECT											
+      u_id,                                      
+      name,                                      
+      passwd,                                    
+      h_level,                                   
+      login,                                     
+      recommend,                                 
+      email,                                     
+      TO_CHAR(reg_dt, 'yyyy/mm/dd') reg_dt,      
+      1 as rnum,    							    
+      1 as total_cnt     					    
+  FROM                                           
+      users                                      
+  ORDER BY u_id									
+
+2019-08-30 10:25:06,258 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:225)     - ========================
+2019-08-30 10:25:06,258 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:451)     - Executing SQL query [  SELECT											
+      u_id,                                      
+      name,                                      
+      passwd,                                    
+      h_level,                                   
+      login,                                     
+      recommend,                                 
+      email,                                     
+      TO_CHAR(reg_dt, 'yyyy/mm/dd') reg_dt,      
+      1 as rnum,    							    
+      1 as total_cnt     					    
+  FROM                                           
+      users                                      
+  ORDER BY u_id									
+]
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:72)     - =============================
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:73)     - 02. sql=
+  UPDATE users					
+  SET                         	
+      name = ?            	    
+      ,passwd = ?             	
+      ,h_level = ?            	
+      ,login = ?              	
+      ,recommend = ?          	
+      ,email = ?              	
+      ,reg_dt = sysdate       	
+  WHERE                          
+      u_id = ?                   
+
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:74)     - =============================
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:85)     - ========================
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:86)     - 02.args=
+[Ljava.lang.Object;@2f953efd
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:87)     - ========================
+2019-08-30 10:25:06,273 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:869)     - Executing prepared SQL update
+2019-08-30 10:25:06,273 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:616)     - Executing prepared SQL statement [  UPDATE users					
+  SET                         	
+      name = ?            	    
+      ,passwd = ?             	
+      ,h_level = ?            	
+      ,login = ?              	
+      ,recommend = ?          	
+      ,email = ?              	
+      ,reg_dt = sysdate       	
+  WHERE                          
+      u_id = ?                   
+]
+2019-08-30 10:25:06,273 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:879)     - SQL update affected 1 rows
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserServiceTest$TestUserService (UserServiceImpl.java:196)     - ==============================
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserServiceTest$TestUserService (UserServiceImpl.java:197)     - =mail send=
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserServiceTest$TestUserService (UserServiceImpl.java:198)     - ==============================
+2019-08-30 10:25:06,273 DEBUG [main] datasource.DataSourceTransactionManager (AbstractPlatformTransactionManager.java:851)     - Initiating transaction rollback
+2019-08-30 10:25:06,273 DEBUG [main] datasource.DataSourceTransactionManager (DataSourceTransactionManager.java:325)     - Rolling back JDBC transaction on Connection [oracle.jdbc.driver.T4CConnection@47caedad]
+2019-08-30 10:25:06,273 DEBUG [main] datasource.DataSourceTransactionManager (DataSourceTransactionManager.java:368)     - Releasing JDBC Connection [oracle.jdbc.driver.T4CConnection@47caedad] after transaction
+2019-08-30 10:25:06,273 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:327)     - Returning JDBC Connection to DataSource
+2019-08-30 10:25:06,273 DEBUG [main] service.TransactionHandler (TransactionHandler.java:40)     - =================================
+2019-08-30 10:25:06,273 DEBUG [main] service.TransactionHandler (TransactionHandler.java:41)     - =invokeTransaction rollback=
+2019-08-30 10:25:06,273 DEBUG [main] service.TransactionHandler (TransactionHandler.java:42)     - =================================
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:355)     - =============================
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:356)     - 02. sql=
+  SELECT											
+      u_id,                                      
+      name,                                      
+      passwd,                                    
+      h_level,                                   
+      login,                                     
+      recommend,                                 
+      email,                                     
+      TO_CHAR(reg_dt, 'yyyy/mm/dd') reg_dt,      
+      1 as rnum,                      			
+      1 as total_cnt                      		
+  FROM                                           
+      users                                      
+  WHERE u_id = ?                                 
+
+2019-08-30 10:25:06,273 DEBUG [main] ehr.UserDao       (UserDaoJdbc.java:357)     - =============================
+2019-08-30 10:25:06,273 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:682)     - Executing prepared SQL query
+2019-08-30 10:25:06,273 DEBUG [main] core.JdbcTemplate (JdbcTemplate.java:616)     - Executing prepared SQL statement [  SELECT											
+      u_id,                                      
+      name,                                      
+      passwd,                                    
+      h_level,                                   
+      login,                                     
+      recommend,                                 
+      email,                                     
+      TO_CHAR(reg_dt, 'yyyy/mm/dd') reg_dt,      
+      1 as rnum,                      			
+      1 as total_cnt                      		
+  FROM                                           
+      users                                      
+  WHERE u_id = ?                                 
+]
+2019-08-30 10:25:06,273 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:110)     - Fetching JDBC Connection from DataSource
+2019-08-30 10:25:06,273 DEBUG [main] datasource.SimpleDriverDataSource (SimpleDriverDataSource.java:138)     - Creating new JDBC Driver Connection to [jdbc:oracle:thin:@211.238.142.124:1521:orcl]
+2019-08-30 10:25:06,305 DEBUG [main] datasource.DataSourceUtils (DataSourceUtils.java:327)     - Returning JDBC Connection to DataSource
+2019-08-30 10:25:06,305 DEBUG [main] support.AbstractDirtiesContextTestExecutionListener (AbstractDirtiesContextTestExecutionListener.java:106)     - After test method: context [DefaultTestContext@4439f31e testClass = UserServiceTest, testInstance = com.ehr.UserServiceTest@5034c75a, testMethod = upgradeAllOrNothing@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5dfcfece testClass = UserServiceTest, locations = '{classpath:/test-applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2019-08-30 10:25:06,305 DEBUG [main] support.AbstractDirtiesContextTestExecutionListener (AbstractDirtiesContextTestExecutionListener.java:141)     - After test class: context [DefaultTestContext@4439f31e testClass = UserServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5dfcfece testClass = UserServiceTest, locations = '{classpath:/test-applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+2019-08-30 10:25:06,305 INFO  [Thread-1] support.GenericApplicationContext (AbstractApplicationContext.java:984)     - Closing org.springframework.context.support.GenericApplicationContext@3532ec19: startup date [Fri Aug 30 10:25:05 KST 2019]; root of context hierarchy
+2019-08-30 10:25:06,305 DEBUG [Thread-1] support.DefaultListableBeanFactory (AbstractBeanFactory.java:251)     - Returning cached instance of singleton bean 'lifecycleProcessor'
+2019-08-30 10:25:06,305 DEBUG [Thread-1] support.DefaultListableBeanFactory (DefaultSingletonBeanRegistry.java:512)     - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29b5cd00: defining beans [mailSender,passwordAuth,authenticator,emailSession,transactionManager,testUserService,org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator#0,transactionAdvisor,transactionPointCut,transactionAdvice,userService,dataSource,userDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory]; root of factory hierarchy
